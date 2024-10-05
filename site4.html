@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>O American Way of Life</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            background-color: #181616; /* Fundo cinza */
+            color: #ffffff; /* Fonte em branco */
+        }
+        header {
+            background-color: #000000;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        nav {
+            background-color: #1a1c1d;
+            overflow: hidden;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        nav a {
+            flex: 1 1 auto;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #004080;
+        }
+        section {
+            padding: 40px;
+            margin: 10px 0;
+            text-align: center;
+            background-color: #242121;
+            border-radius: 10px;
+        }
+        section h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #ffffff; /* Fonte em branco */
+        }
+        .content-section {
+            background-color: #2c2a2a;
+            color: #f0f0f0; /* Cor mais clara para o texto */
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        details {
+            margin: 10px 0;
+            cursor: pointer;
+            background-color: #1d1919;
+            border: 1px solid #ffffff;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        summary {
+            font-size: 24px;
+            font-weight: bold;
+            outline: none;
+            position: relative;
+            padding-right: 20px;
+        }
+        summary::after {
+            content: '▶';
+            position: absolute;
+            right: 0;
+            font-size: 18px;
+            transition: transform 0.3s;
+        }
+        details[open] summary::after {
+            transform: rotate(90deg);
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery img {
+            margin: 10px;
+            width: 100%; /* Ajuste para dispositivos móveis */
+            max-width: 300px; /* Largura máxima para desktop */
+            height: auto; /* Mantém a proporção */
+            object-fit: cover;
+            border: 2px solid #000000;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #000000;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact {
+            background-color: #242121;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            border-color: #ffffff;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+        }
+        .instagram-button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #E1306C; /* Cor do Instagram */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .instagram-button:hover {
+            background-color: #b72659;
+        }
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 28px;
+            }
+            nav a {
+                padding: 10px;
+                flex: 1 1 100%; /* Ocupa toda a linha */
+            }
+            section h2 {
+                font-size: 22px;
+            }
+            .content-section {
+                padding: 15px; /* Menor padding em dispositivos móveis */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>O American Way of Life</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Introdução</a>
+        <a href="#about">Sobre</a>
+        <a href="#project-info">Informações do Projeto</a>
+        <a href="#resultadoes">Resultados Esperados</a>
+        <a href="#biblio">Bibliografia</a>
+        <a href="#gallery">Galeria</a>
+        <a href="#contact">Contato</a>
+    </nav>
+
+    <section id="home">
+        <h2>Introdução</h2>
+        <details>
+            <summary>Introdução</summary>
+            <p>O projeto “AMERICAN LIFE”: reflexão crítica sobre o modo de vida americano busca, ao analisar criticamente o “American Way of Life”, desenvolver nos alunos do 9º ano da E. M. Embaixador Martim Francisco a consciência sobre a sociedade de consumo em que vivemos. Pretende-se, nas disciplinas de História e Língua Inglesa, trabalhar o estilo de vida americano a partir do estudo da música/videoclipe “American life”, de Madonna, e do filme “Jogos Vorazes” (2012).</p>
+        </details>
+    </section>
+
+    <section id="about">
+        <h2>Sobre</h2>
+        <details>
+            <summary>Sobre o American Way of Life</summary>
+            <p>Hoje vivemos um tempo marcado por desafios e contradições. O século XXI consolidou as grandes mudanças na forma de viver dos seres humanos iniciadas no século XX, especialmente o extraordinário avanço tecnológico e o crescimento econômico resultante da expansão capitalista globalizada. O “triunfo do capitalismo” envolveu um grande “surto econômico movido pela revolução tecnológica” e deu sustentação a uma ideologia de progresso difundida pelo modelo da sociedade de consumo capitalista. A busca por constante desenvolvimento econômico e por consumo crescente promoveu o uso indiscriminado dos recursos da natureza e a utilização de recursos não renováveis e poluentes (Hobsbawm, 1995, p. 259 - 265). As inovações e avanços, contudo, não puseram fim à miséria e às desigualdades enfrentadas por imensa parcela da população mundial. Ao contrário, as comodidades e tecnologias da sociedade de consumo não estão disponíveis para todos. Parcela significativa da população vive na pobreza e alijada das possibilidades tecnológicas do século XXI. Nesse mundo de produção e mercado de massa, os seres humanos foram transformados em consumidores de bens e serviços. Na fase contemporânea da sociedade capitalista, “a mercadoria ocupou totalmente a vida social” (Debord, 1997, p.30. apud: Rubim, 2002). Assim, tornou-se uma sociedade do espetáculo, em que espetáculo, mercadoria e capitalismo se mesclam de forma indissociável. Por outro lado, a sociedade do espetáculo é possível devido à separação entre real e representação. O espetáculo acontece quando as imagens são usadas para mediar relações interpessoais (Rubim, 2002). Porém, para o autor, isso não significa que o espetáculo não possa ser usado de forma libertadora, desvelando a realidade. Para compreender a sociedade contemporânea atual é necessário realizar uma reflexão sobre o contexto histórico de construção da sociedade de consumo ocidental, enfatizando as dinâmicas do desenvolvimento do capitalismo nos séculos XX e XXI. Trata-se, à luz da BNCC (2018, p. 396), de promover a reflexão crítica sobre a sociedade capitalista atual, realizando os “processos de identificação, comparação, contextualização, interpretação e análise” do estilo de vida americano, o “American way of life”, possibilitando aos alunos compreender os acontecimentos históricos, relações de poder e processos e mecanismos de transformação e manutenção das estruturas sociais, políticas, econômicas e culturais ao longo do tempo e em diferentes espaços para analisar, posicionar-se e intervir no mundo contemporâneo (BNCC, 2018, p. 400). O consumo desenfreado e os valores que caracterizam o estilo de vida da sociedade ocidental espalharam-se pelo mundo graças aos meios de comunicação, ao cinema, ao rádio, à música, o que o tornou o inglês a língua franca do mundo de hoje. O cinema hollywoodiano difundiu (e ainda difunde), de forma sedutora e convincente, o modo de viver norte-americano, apresentando seu estilo de vida como uma forma de alcançar a felicidade (Júnior; Gonçalves, 2015). Além disso, a ascensão dos Estados Unidos como uma superpotência militar e
+                econômica no século XX contribuiu para a difusão do “American Way of Life”. Este estilo de vida é frequentemente associado ao individualismo, à busca pela liberdade e ao consumismo desenfreado. Através de filmes, séries e músicas, valores como a felicidade ligada ao consumo e a busca pelo sonho americano se tornaram ideais amplamente divulgados.
+
+                A análise crítica desse fenômeno é essencial, pois nos permite questionar a viabilidade e a moralidade desse estilo de vida em um mundo que enfrenta sérios desafios ambientais e sociais. A reflexão proposta por este projeto visa desenvolver a capacidade dos alunos de reconhecerem essas dinâmicas, promovendo um olhar crítico e consciente sobre as influências culturais e sociais do capitalismo contemporâneo.
+                
+                Ao longo do projeto, serão realizadas atividades que buscam não apenas entender o conteúdo das obras analisadas, mas também discutir suas implicações na vida cotidiana dos jovens. Espera-se que, através do estudo da música de Madonna e do filme “Jogos Vorazes”, os alunos possam debater questões como a alienação, o consumismo e a busca por identidade em uma sociedade marcada por desigualdades.
+                
+                Essa abordagem permitirá que os estudantes se tornem protagonistas em suas próprias histórias, refletindo sobre suas escolhas e o impacto que essas têm no mundo ao seu redor. A educação, assim, se torna uma ferramenta poderosa de transformação social, capacitando os alunos a se tornarem cidadãos mais críticos e engajados.
+                
+                Essa reflexão crítica é o ponto de partida para que os alunos do 9º ano possam explorar e questionar o que significa viver no mundo contemporâneo, considerando as influências e os desafios do “American Way of Life” e suas consequências globais.
+                
+                </details>
+                    </section>
+                
+                    <section id="project-info">
+                        <h2>Informações do Projeto</h2>
+                        <details>
+                            <summary>Objetivos</summary>
+                            <p>O objetivo principal deste projeto é promover uma reflexão crítica sobre o estilo de vida americano e suas implicações sociais e culturais. Ao final, espera-se que os alunos possam:</p>
+                            <ul>
+                                <li>Desenvolver um entendimento crítico sobre a sociedade de consumo.</li>
+                                <li>Fomentar discussões sobre as desigualdades sociais e econômicas.</li>
+                                <li>Identificar a influência da cultura pop na formação de identidades.</li>
+                                <li>Refletir sobre suas próprias experiências e escolhas.</li>
+                            </ul>
+                        </details>
+                    </section>
+                
+                    <section id="resultadoes">
+                        <h2>Resultados Esperados</h2>
+                        <details>
+                            <summary>Resultados</summary>
+                            <p>Ao final do projeto, espera-se que os alunos sejam capazes de:</p>
+                            <ul>
+                                <li>Elaborar um ensaio crítico sobre os temas abordados.</li>
+                                <li>Participar de debates sobre o impacto da cultura de consumo em suas vidas.</li>
+                                <li>Apresentar um projeto artístico que reflita suas reflexões.</li>
+                            </ul>
+                        </details>
+                    </section>
+                
+                    <section id="biblio">
+                        <h2>Bibliografia</h2>
+                        <details>
+                            <summary>Referências</summary>
+                            <p>HOBSBAWM, Eric. A Era dos Extremos. São Paulo: Companhia das Letras, 1995.</p>
+                            <p>DEBORD, Guy. A Sociedade do Espetáculo. Rio de Janeiro: Contraponto, 1997.</p>
+                            <p>JÚNIOR, A. F.; GONÇALVES, L. C. Cultura e Sociedade na Era da Informação. São Paulo: Editora Moderna, 2015.</p>
+                        </details>
+                    </section>
+                
+                    <section id="gallery">
+                        <h2>Galeria</h2>
+                        <div class="gallery">
+                            <video width="300" height="200" controls>
+                                <source src="video1.mp4" type="video/mp4">
+                                Seu navegador não suporta o vídeo.
+                            </video>
+                            <video width="300" height="200" controls>
+                                <source src="video2.mp4" type="video/mp4">
+                                Seu navegador não suporta o vídeo.
+                            </video>
+                            <video width="300" height="200" controls>
+                                <source src="video3.mp4" type="video/mp4">
+                                Seu navegador não suporta o vídeo.
+                            </video>
+                            <video width="300" height="200" controls>
+                                <source src="video4.mp4" type="video/mp4">
+                                Seu navegador não suporta o vídeo.
+                            </video>
+                            <video width="300" height="200" controls>
+                                <source src="video5.mp4" type="video/mp4">
+                                Seu navegador não suporta o vídeo.
+                            </video>
+                        </div>
+                    </section>
+                    
+                    
+                
+                    <section id="contact">
+                        <h2>Contato</h2>
+                        <div class="contact">
+                            <p>Para mais informações, entre em contato:</p>
+                            <p>Email: ednamresende@hotmail.com</p>
+                            <a class="instagram-button" href="https://www.instagram.com/izidoroov/" target="_blank">Siga o criador!</a>
+                        </div>
+                    </section>
+                
+                    <footer>
+                        <p>&copy; 2024 O American Way of Life.</p>
+                    </footer>
+                </body>
+                </html>
+                
